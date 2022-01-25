@@ -1,0 +1,17 @@
+{
+  "name": "car-maintenance-interval",
+  "version": "1.0.0",
+  "description": "Know what needs to be worked on given your approximate miles",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Car",
+    "Service",
+    "Maintenance",
+    "Interval"
+  ],
+  "author": "Kerolos",
+  "license": "ISC"
+}
