@@ -2,10 +2,10 @@ const path = require('path');
 const HtmlWebPackPlugin = require('html-webpack-plugin');
 
 module.exports = {
-mode: process.env.NODE_ENV,
-entry: '/index.js',
+mode: 'development',
+entry: path.resolve(__dirname,'/app.jsx'),
 output: {
-
+ path: path.resolve(__dirname,'dist')
 },
 module: {
     rules: [
@@ -19,17 +19,22 @@ module: {
           }
         },
       },{
-        test: /\.s[ac]ss$/i,
-        use: [
-          "style-loader",
-          "css-loader",
-          "sass-loader",
-        ],
+        test: /\.css$/i,
+        use: ["style-loader","css-loader"],
       }
     ]
 },
 plugins: [new HtmlWebPackPlugin({
     title: 'My App',
-    template: 'index.html'
-})]
+    template: path.resolve(__dirname,'index.html')
+})],
+resolve: {
+    extensions: ['', '.js', '.jsx', '.css'],       
+},
+devServer: {
+    static: {
+      directory: path.resolve(__dirname, './server.js'),
+    },
+    
+}
 };

@@ -1,0 +1,52 @@
+body{
+    background-color: rgb(41, 175, 175);
+}
+#submit{
+    font-size: 25px;
+    margin:15px;
+    padding: 0 15px;
+    border-radius: 5px;
+    border: 2px solid rgb(49, 49, 255);
+    background-color: rgb(2, 2, 240);
+    color:rgb(196, 196, 250);
+    
+   
+}
+#submit:hover{
+    background-color: rgb(69, 212, 2);
+    border: 2px solid rgb(0, 0, 0);
+    color:black;
+    cursor: pointer;
+}
+#miles{
+    margin: 15px;
+    padding: 10px 30px;
+    font-size: 25px;
+    background-color: rgba(19, 62, 253, 0.692);
+    color:rgb(5, 0, 77);
+    border: 3px solid blue;
+    border-radius: 5px;
+    display: block;
+   
+}
+#miles:hover{
+    background-color: rgb(47, 84, 252);
+    color: black;
+    
+}
+h1, h2{
+    font-family:Arial, Helvetica, sans-serif;
+    padding: 5px 15px;
+    background-color: rgb(55, 148, 235);
+    border-radius: 5px ;
+    display: inline-block;
+    margin: 15px;
+}
+.numbers{
+    background-color:rgba(19, 62, 253, 0.692); 
+    color:rgb(5, 0, 77);
+}
+.numbers:hover{
+    background-color: rgb(47, 84, 252);
+    color: black;
+}
