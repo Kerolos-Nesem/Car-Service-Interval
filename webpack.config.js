@@ -33,7 +33,7 @@ resolve: {
 },
 devServer: {
     static: {
-      directory: path.resolve(__dirname, './server.js'),
+      directory: path.resolve(__dirname, './'),
     },
     
 }
