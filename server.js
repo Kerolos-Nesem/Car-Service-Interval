@@ -12,7 +12,7 @@ app.use(express.urlencoded({ extended: true }));
 
 app.post('/server', controller.service ,(req,res) =>{
   
-//   console.log(res.locals.ser)
+//   console.log(res.locals.data)
 });
 
 

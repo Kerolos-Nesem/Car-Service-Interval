@@ -9,7 +9,7 @@ class App extends Component {
             fetch('/server',{
             method: 'POST',
             headers:{'Content-Type': 'application/json'},
-            body: JSON.stringify({'id': `${input}`})    
+            body: JSON.stringify({'id': input})    
             })
             // .then((data) => data.json())
             // .then((data) => /* populate the table with incoming data */ console.log(data))
