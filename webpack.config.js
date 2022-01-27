@@ -32,9 +32,12 @@ resolve: {
     extensions: ['', '.js', '.jsx', '.css'],       
 },
 devServer: {
-    static: {
-      directory: path.resolve(__dirname, './'),
-    },
-    
+  static: path.resolve(__dirname, 'dist'),
+  port: 8080,
+  hot: true,
+  proxy: {
+    '/server': 'http://localhost:3000'
+  }
 }
+
 };

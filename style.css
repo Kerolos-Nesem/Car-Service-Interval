@@ -1,13 +1,18 @@
 body{
-    background-image: url('/pexels-pixabay-210182.jpg');
-    height: 100%;
+    background-image: linear-gradient(rgba(0, 152, 253, 0.897), rgb(7, 19, 51));
+    height: 100vh;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    background-color: rgb(41, 175, 175);
     display: flex;
     justify-content: center;
     font-family: Arial, Helvetica, sans-serif;
+    
+}
+#container{
+    background-color: rgba(3, 32, 112, 0.575);
+    border-radius: 25px;
+    padding: 25px
     
 }
 #question{
@@ -15,62 +20,63 @@ body{
 }
 #submit{
     font-size: 25px;
-    margin-left:95px;
+    margin-left:55px;
     padding: 0 15px;
     border-radius: 5px;
-    border: 2px solid rgb(153, 66, 7);
-    background-color: rgb(177, 100, 1);
+    border: 2px solid rgb(9, 61, 230);
+    background-color: rgb(11, 64, 212);
     color:rgb(196, 196, 250);
     
    
 }
 #submit:hover{
-    background-color: rgb(212, 96, 2);
-    border: 2px solid rgb(0, 0, 0);
+    background-color: rgb(2, 33, 212);
+    border: 2px solid rgb(9, 5, 238);
     color:black;
     cursor: pointer;
 }
 #miles{
     margin: 15px;
-    margin-left: 75px;
+    margin-left: 55px;
     padding: 10px 30px;
     font-size: 25px;
-    background-color: rgb(255, 126, 5);
-    color:rgb(5, 0, 77);
-    border: 3px solid rgb(184, 138, 52);
+    background-color: rgb(5, 84, 255);
+    color:rgb(6, 0, 97);
+    border: 3px solid rgb(23, 99, 240);
     border-radius: 5px;
     
    
 }
 #miles:hover{
-    background-color: rgb(185, 91, 3);
+    background-color: rgb(11, 82, 236);
     color: black;
     
 }
-h1, h2{
+h1{
     font-family:Arial, Helvetica, sans-serif;
     padding: 5px 15px;
-    background-color: rgba(255, 123, 0, 0.589);
-    border-radius: 5px ;
+    background-color: rgba(20, 112, 173, 0.151);
+    border-radius: 25px ;
     display: inline-block;
-    margin: 15px;
+    margin-left: 110px;
    
 }
 
 .numbers{
-    background-color:rgba(253, 113, 19, 0.726); 
+    background-color:rgba(12, 106, 247, 0.726); 
     color:rgba(221, 209, 200, 0.726);
 }
 .numbers:hover{
-    background-color: rgba(253, 113, 19, 0.726);
+    background-color: rgba(19, 148, 253, 0.726);
     color: black;
 }
 th,tr,td{
     border: 2px solid black;
-    padding: 30px;
+    padding: 15px;
 }
 table{
-  margin-left: 15px;  
+  margin:0  15px;  
   color:rgb(240, 240, 240);
   background-color: rgba(255, 123, 0, 0.116);
+  
 }
