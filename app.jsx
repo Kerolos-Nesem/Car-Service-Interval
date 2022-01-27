@@ -11,8 +11,8 @@ class App extends Component {
             headers:{'Content-Type': 'application/json'},
             body: JSON.stringify({'id': input})    
             })
-            // .then((data) => data.json())
-            // .then((data) => /* populate the table with incoming data */ console.log(data))
+            .then((data) => data.json())
+            .then((data) => console.log(data))
             
         }
 

@@ -11,8 +11,7 @@ app.use(express.urlencoded({ extended: true }));
 
 
 app.post('/server', controller.service ,(req,res) =>{
-  
-//   console.log(res.locals.data)
+  return res.status(200).json(res.locals.service)
 });
 
 
